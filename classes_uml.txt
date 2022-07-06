@@ -1,0 +1,59 @@
+Animal
+------
++ name: string
++ species: string
++ habitat: string
+------
++ move()
++ makenoise()
+
+Bird
+------
++ colors
++ beak
++ feathers
+------
++ layeggs()
+
+Mammal
+------
++ fur
+------
++ givebirth()
++ nurse()
+
+Book
+------
++ name:string
++ author:string
++ ISBN: int
+------
+Audiobook
+------
++ electronic
+------
++ listen()
+
+Vehicle
+------
++ make
++ color
++ year
+------
++ drive()
++ run()
+
+Truck
+------
++ bed
+------
++ tow()
++ fourwheeldrive
+
+Car
+------
++ cylinders
++ electric
+
+
+
