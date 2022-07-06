@@ -35,6 +35,32 @@ class Animal:
     def makenoise(self):
         print('Make Noise')
 
+class Fish(Animal):
+    """Fish class, inheriting from Animal"""
+    def __init__(self,name):
+        super().__init__(name)
+    #get
+    @property
+    def scales(self):
+        return self.__scales
+
+    @property
+    def fins(self):
+        return self.__fins
+
+    #setter
+    @scales.setter
+    def name(self, new_scales):
+        self.__scales = new_scales
+    
+    @scales.setter
+    def name(self, new_fins):
+        self.__fins = new_fins
+
+    def swim(self):
+        print("swim")
+
+
 class Vehicle:
     """Vehicle class"""
     def __init__(self, name):
