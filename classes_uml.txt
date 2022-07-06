@@ -7,20 +7,28 @@ Animal
 + move()
 + makenoise()
 
-Bird
+Fish
 ------
-+ colors
-+ beak
-+ feathers
++ scales
++ fins
 ------
-+ layeggs()
++ breathewater()
 
-Mammal
+Snake
 ------
-+ fur
++ scales
++ coldblooded
++ eggs
 ------
-+ givebirth()
-+ nurse()
++ constrict
+
+Person
+------
++ furcolor
++ lastname
+------
++ speak
++ wearclothes
 
 Book
 ------
@@ -28,32 +36,48 @@ Book
 + author:string
 + ISBN: int
 ------
-Audiobook
+Textbook
 ------
-+ electronic
++ cover: string
++ pages: int
 ------
-+ listen()
++ read()
+
+AddressBook
+------
++ addresses:string
 
 Vehicle
 ------
-+ make
-+ color
-+ year
++ make: string
++ color: color
++ year: int
 ------
 + drive()
 + run()
 
-Truck
-------
-+ bed
-------
-+ tow()
-+ fourwheeldrive
-
 Car
 ------
-+ cylinders
-+ electric
++ cylinders: string
++ electric: string
 
+Bicycle
+------
++ frame: string
+------
++ peddle()
+
+Boat
+------
++ motiontype: string
++ hull: string
++ crew: string
+
+Hot Air Baloon
+------
++ balloon: string
++ basket: string
+------
++float()
 
 
